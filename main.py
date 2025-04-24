@@ -28,3 +28,9 @@ print(pd.Series(l1))
 
 s1 = pd.Series((3,4,5),index=["a", 'b', 'c'])
 print(s1)
+
+t1 = (3,4,5)
+s1 = pd.Series((3,4,5),index=["a", 'b', 'c'])
+print(s1)
+
+dt = {"a": 3, "b": 4, "c": 5}
