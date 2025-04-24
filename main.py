@@ -42,3 +42,22 @@ s2 = pd.Series(l1, index=["a", 'b', 'c', 'd', 'e'])
 print(s2)
 
 
+t1 = pd.Series([3, 4, 5], index=["a", 'b', 'c'])
+t2 = pd.Series([3, 5, 8], index=["a", 'b', 'c'])
+print(t1 + t2) # addition of two series
+
+
+# position based indexing
+print(t1[0]) # first element
+print(t1[1]) # second element
+
+# label based indexing
+print(t1['a']) # first element
+print(t1['b']) # second element
+
+# range
+print(s2)
+print(s2[0:3]) # first three elements, last range is excluded in position based indexing
+print(s2[1:4]) # second to fourth elements
+
+print(s2['a':'d']) # last range is included in label based indexing
