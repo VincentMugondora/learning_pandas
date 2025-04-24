@@ -6,3 +6,6 @@ import numpy as np
 l1 = [2,5]
 
 d1 = {'a': [1, 2, 3], 'b': [4, 5, 6], 'c': [7, 8, 9]} # rename index
+
+for i in enumerate(l1):
+    print(i)
