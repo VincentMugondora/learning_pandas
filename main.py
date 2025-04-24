@@ -40,3 +40,5 @@ dt = {"a": 3, "b": 4, "c": 5}
 l1 = [3, 'hello', 5, 56, 'hi']
 s2 = pd.Series(l1, index=["a", 'b', 'c', 'd', 'e'])
 print(s2)
+
+
