@@ -29,8 +29,14 @@ print(pd.Series(l1))
 s1 = pd.Series((3,4,5),index=["a", 'b', 'c'])
 print(s1)
 
+# series using tuples
 t1 = (3,4,5)
 s1 = pd.Series((3,4,5),index=["a", 'b', 'c'])
 print(s1)
 
 dt = {"a": 3, "b": 4, "c": 5}
+
+# series using lists
+l1 = [3, 'hello', 5, 56, 'hi']
+s2 = pd.Series(l1, index=["a", 'b', 'c', 'd', 'e'])
+print(s2)
