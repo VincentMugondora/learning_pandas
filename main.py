@@ -26,4 +26,5 @@ print(series['c'])
 
 print(pd.Series(l1))
 
-s1 = pd.Series
+s1 = pd.Series((3,4,5),index=["a", 'b', 'c'])
+print(s1)
