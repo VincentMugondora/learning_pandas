@@ -61,3 +61,5 @@ print(s2[0:3]) # first three elements, last range is excluded in position based 
 print(s2[1:4]) # second to fourth elements
 
 print(s2['a':'d']) # last range is included in label based indexing
+
+print(s2[['a', 'c', 'e']]) # accessing multiple elements using label based indexing
